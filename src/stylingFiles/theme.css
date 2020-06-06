@@ -1,0 +1,119 @@
+/* no efxclipse validation */
+
+.root{
+    -fx-background-color: #1d1e22;
+    -fx-font-family: "Times New Roman";
+}
+
+.button{
+	-fx-background-color: #ffffff;
+}
+
+
+.tab:selected .tab-label {
+    -fx-text-fill: red ;
+}
+
+.tab-pane .tab
+{
+    -fx-background-color: #000000;
+    
+}
+
+.tab-label {
+    -fx-text-fill: #ffffff;
+}
+
+
+.text-area {
+    -fx-font-family: Consolas;
+    -fx-font-size: 15;
+    -fx-text-fill: #ffffff;
+    -fx-display-caret:true;
+}
+
+
+.tab-pane > .tab-header-area > .headers-region > .tab {
+    -fx-background-radius: 20;
+}
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-radius: 20;
+}
+
+.text-area .content {
+	
+    -fx-background-color: #424141;
+}
+
+.tab-pane *.tab-header-area *.tab-header-background {
+  -fx-background-color: #c0c0c0;
+}
+
+
+.table-view .column-header-background .filler {
+    -fx-background-color: red;
+}
+
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+
+.table-view .column-header-background{
+	-fx-font-family: Times New Roman;
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+	-fx-font-family: Times New Roman;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #616161;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #424242;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-column {
+  -fx-alignment: CENTER;
+  -fx-font-size: 14;
+  -fx-font-family: Times New Roman;
+  
+}
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background, 
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
